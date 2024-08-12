@@ -6,7 +6,7 @@ public class JavaProgram3 {
         colors.add("Purple");
         colors.add("Blue");
 
-        colors.add(0, "Red");
+        colors.addFirst("Red");
 
         System.out.println("Colors: " + colors);
     }
